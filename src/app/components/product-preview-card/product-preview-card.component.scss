@@ -1,0 +1,10 @@
+.product-img {
+    background-image: url('../../../assets/images/image-product-mobile.jpg');
+}
+
+@media screen and (min-width: 640px) {
+  
+    .product-img {
+        background-image: url('../../../assets/images/image-product-desktop.jpg');
+    }
+}

@@ -1,1 +1,9 @@
-<p>product-preview-card works!</p>
+<div class="flex flex-col sm:flex-row max-w-screen-sm shadow-xl rounded-xl">
+    <picture class="w-full sm:w-1/2">
+        <source media="(min-width: 640px)" srcset="../../../assets/images/image-product-desktop.jpg">
+        <img class="w-full rounded-t-xl rounded-b-none sm:rounded-s-xl sm:rounded-e-none" src="../../../assets/images/image-product-mobile.jpg" alt="Product image">
+    </picture>
+    
+    <app-product-details class="w-full sm:w-1/2">product-preview-card works!</app-product-details>
+</div>
+
